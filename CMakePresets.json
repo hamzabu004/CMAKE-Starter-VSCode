@@ -4,7 +4,8 @@
         {
             "name": "myset",
             "displayName": "Custom configure preset",
-            "description": "Sets Ninja generator, build and install directory",
+            "inherits": [],
+            "description": "Mingw Gewn",
             "generator": "MinGW Makefiles",
             "binaryDir": "${sourceDir}/out/build/${presetName}",
             "cacheVariables": {
@@ -13,7 +14,7 @@
                 "CMAKE_C_COMPILER": "C:\\MinGW\\bin\\gcc.exe",
                 "CMAKE_CXX_COMPILER": "C:\\MinGW\\bin\\g++.exe"
             }
-        }
+        } 
     ],
     "buildPresets": [
         {
